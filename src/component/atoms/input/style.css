@@ -1,0 +1,21 @@
+.inputNoBorder input:focus{
+    outline-color: #b7f4ff;
+    border-color: #b7f4ff;
+    box-shadow: -2px 2px -2px 2px #b7f4ff;
+    background-color: white;
+}   
+.inputNoBorder input{
+    border: none;
+    background-color: #f3f3f4;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: "Roboto", "Open Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+.inputNoBorder input:required:valid {
+    border-color: #b7f4ff;
+  }
+
+.inputNoBorder input:required:focus:valid {
+    background-color: #b7f4ff;
+}

@@ -1,0 +1,140 @@
+.loginContainer{
+    display: flex;
+    justify-content: start;
+    width: 100vw;
+}
+.regisLeft {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-image: url('./../../asset/124656979_645161602829798_5679654567396878162_n.png');
+    background-size: cover;
+    height: 100vh;
+}
+.loginLeftWrapper {
+    width: 105.5%;
+    height: 107.6%;
+    position: relative;
+    top: -50px;
+    left: -50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.loginLogo{
+    color: #0577fe;
+    opacity: 1 !important;
+}
+.regisText {
+    opacity: 1 !important;
+    width: 75%;
+    color: white;
+}
+.loginRight{
+    width: 100%;
+}
+.loginRightMain{
+    height: 100vh;
+}
+.alreadyAMember{
+    text-align: right;
+    padding: 15px;
+}
+.alreadyAMember span{
+    color: blue;
+    cursor: pointer;
+}
+.loginRightLogin{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15% ;
+}
+.loginspan{
+    font-family: "Roboto";
+    font-weight: 500 !important;
+    font-size: 24px !important;
+}
+.loginWith{
+    margin-top: 20px;
+}
+.loginWithGoogle{
+    width: 90%;
+    border: 1px solid #5a84b6;
+    background-color: #5a84b6;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginWithGoogleImg {
+    height: 40px;
+}
+.loginWithGoogleImg img{
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+.loginWithGoogleMid{
+    margin-left: 10px;
+}
+.loginWithGoogleMid span{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.loginWithGoogleMid p{
+    margin-bottom: 0;
+    font-size: 11px;
+    margin-bottom: 5px;
+    align-self: center;
+}
+.loginWithTwitt{
+    padding: 7px;
+    background-color: white;
+    margin-right: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.loginLineOr{
+    width:100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+    padding-left: 0;
+    align-items: baseline;
+}
+
+.loginLineOr hr{
+    width: 40%;
+    margin: 0;
+}
+.loginLineOr p{
+   margin-right: 15px;
+   margin-left: 15px;
+}
+
+.loginFrom{
+    display: flex;
+    justify-content: start;
+    width:100%;
+}
+.loginFormName{
+    width: 100%;
+}
+.loginFormEmail{
+    margin-top: 10px;
+}
+.loginFormCehckbox{
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+    width: 90%;
+
+    font-size: 14px;
+}
+.loginFormCehckbox input{
+    width: 30px;
+}
+.loginFormCehckbox p{
+    margin-left: 5px;
+}
