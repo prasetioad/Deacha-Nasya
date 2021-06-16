@@ -25,3 +25,72 @@
     
     line-height: 20pt;
 }
+
+/* ==========  HOME BAR  ==================*/
+.homeBarContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+.homeNav{
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.homeNav p{
+    margin-bottom: 0;
+}
+.homeNav:hover{
+    background-color: #fa479a;
+    border-radius: 6px;
+    color: white;
+}
+.hContentLeftSignUp{
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: 20pt;
+}
+
+/* ============ HOME CARD =========== */
+
+.homeBodyContainer{
+    display: flex;
+    justify-content:  flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.homeCard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 7px;
+    width: 312px;
+    height: 234px;
+    border-radius: 6px;
+    /* background-image: linear-gradient(#b7f4ff); */
+    background-color: #b7f4ff;
+    cursor: pointer;
+}
+.homeCardContent {
+    width: 100%;
+    height: 75%;
+    text-align: center;
+}
+.homeCardContent img {
+    height: 100%;;
+}
+
+.homeCardContentBot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.homeCardContentBotItem{
+    align-items: center;
+}
+.homeCardContentBot .homeCardContentBotItem img{
+    height:30px !important;
+    border-radius: 50%;
+    background-size: cover;
+}

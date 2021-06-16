@@ -1,9 +1,10 @@
 import React from 'react'
+import './style.css'
 
 function Index() {
     return (
         <div>
-            <navbar style={{backgroundColor: '#b7f4ff'}}>
+            <div className='homeBarContainer' style={{backgroundColor: '#b7f4ff'}}>
                 <div className="homeNav">
                     <p>Galery</p>
                 </div>
@@ -16,7 +17,7 @@ function Index() {
                 <div className="homeNav">
                     <p>MyWork</p>
                 </div>
-            </navbar>
+            </div>
         </div>
     )
 }

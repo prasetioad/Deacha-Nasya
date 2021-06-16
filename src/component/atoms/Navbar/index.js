@@ -13,10 +13,10 @@ function Index() {
                         <Logo color="#5a84b6" size="28px"/>
                     </div>
                     <div className="navbarRight">
-                        <div className="navRightObjk">
-                            <FaSearch />
+                        <div className="navRightObjk" style={{cursor:'pointer'}}>
+                            <FaSearch style={{color:'gray'}}/>
                         </div>
-                        <div className="navRightObjk">
+                        <div className="navRightObjk" style={{color:'gray' , cursor:'pointer'}}> 
                             <p>Sign in</p>
                         </div>
                         <div className="navRightObjk">
