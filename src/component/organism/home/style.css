@@ -1,0 +1,27 @@
+.homeHeader{
+    background-image: url('../../asset/Deacha-Recovered1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 85vh;
+}
+.homeHeaderContent{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10%;
+}
+.hContentLeft{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 60pt;
+    width: 45%;
+}
+.hContentLefttextBot{
+    font-size: 12pt;
+    font-weight: 400;
+    
+    line-height: 20pt;
+}

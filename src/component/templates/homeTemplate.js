@@ -1,10 +1,12 @@
 import React from 'react'
+import Navbar from '../atoms/Navbar'
+import Home from '../organism/home/homHeader'
 
 function Index() {
     return (
         <div>
-            <p>Here Navbar</p>
-            <h1>Home Page Template work!</h1>
+            <Navbar />
+            <Home />
             <p>Here Footer</p>
         </div>
     )

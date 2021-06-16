@@ -1,0 +1,23 @@
+.navbarMain{
+    /* width: 100vw; */
+    height: 70.5px;
+    background-color: #ffc2b7;
+}
+.navbarBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding-top: 10px;
+    background-color: #ffc2b7;
+}
+.navbarRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.navRightObjk{
+    margin-right: 20px;
+}
