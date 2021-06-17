@@ -57,17 +57,15 @@
     display: flex;
     justify-content:  flex-start;
     flex-wrap: wrap;
-    padding: 20px;
 }
 .homeCard{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    margin: 7px;
-    width: 312px;
-    height: 234px;
+    margin: 10px;
+    max-width: 275px;
+    height: 275px;
     border-radius: 6px;
-    /* background-image: linear-gradient(#b7f4ff); */
     background-color: #b7f4ff;
     cursor: pointer;
 }
@@ -75,6 +73,7 @@
     width: 100%;
     height: 75%;
     text-align: center;
+    background-color: rgba(252, 250, 250, 0.898);
 }
 .homeCardContent img {
     height: 100%;;
@@ -88,6 +87,14 @@
 }
 .homeCardContentBotItem{
     align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.homeCardContentBotItem span{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
 }
 .homeCardContentBot .homeCardContentBotItem img{
     height:30px !important;

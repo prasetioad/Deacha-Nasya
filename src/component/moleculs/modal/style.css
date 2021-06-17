@@ -1,0 +1,86 @@
+.modal-lg {
+    max-width: 100% !important;
+}
+
+.modalObjekContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modalObjekBodyTop{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    background-color: gainsboro;
+    border-radius: 6px;
+    align-items: center;
+}
+.modalObjekBodyTopContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+.modalObjekBodyTopContentbot{
+    width: 25%;
+}
+
+
+/* ================== MID ===================== */
+.modalObjekBodyMid{
+    width: 60%;
+    margin-top: 20px;
+}
+.modalObjekBodyMidProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modalObjekBodyMidImgBody{
+    width: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.modalObjekBodyMidImgProf{
+    width: 10%;
+    border-radius: 50%;
+}
+.modalObjekBodyMidImgProf img{
+    width: 100%;
+    border-radius: 50%;
+}
+.modalObjekBodyMidTitle{
+    margin-left: 10px;
+}
+.modalObjekBodyMidTitle span {
+    font-weight: 600;
+}
+.modalObjekBodyMidTitle p {
+    font-size: 12px;
+}
+.modalObjekBodyMidSave{
+    display: flex;
+    justify-content: space-between;
+    width: 16%;
+}
+.modalDetilBodyImg{
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 8px;
+}
+.modalDetilBodyImg img{
+    width: 100%;
+    max-height: 695.7px;
+    border-radius: 8px;
+}
+.modalDetilBodyDesc{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
